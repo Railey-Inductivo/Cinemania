@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cinemaniacbg"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".AdventurePage">
+
+    <ImageButton
+        android:id="@+id/backButton"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginRight="128dp"
+        android:layout_marginBottom="8dp"
+        android:background="@android:color/transparent"
+        android:rotationY="-180"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/backbutton" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:fontFamily="@font/roboto_bold"
+        android:text="Adventure Genre"
+        android:textAlignment="textStart"
+        android:textColor="#500D0D"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="287dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="14dp"
+        android:fontFamily="@font/roboto"
+        android:text="Adventure captivates audiences with epic quests, exotic locations, and heroic feats, aiming to inspire wonder."
+        android:textAlignment="textStart"
+        android:textColor="#000000"
+        android:textSize="19sp" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="290dp"
+        android:layout_height="110dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="50dp"
+        android:layout_marginBottom="8dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="5dp">
+
+        <ImageView
+            android:layout_width="90dp"
+            android:layout_height="101dp"
+            android:layout_margin="5dp"
+            android:background="@color/white"
+            android:elevation="3dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/madmax" />
+
+        <TextView
+            android:layout_width="266dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:fontFamily="@font/roboto_bold"
+            android:paddingLeft="98dp"
+            android:text="Mad Max"
+            android:textColor="#500D0D"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="168dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="32dp"
+            android:text="In a self-destructing world, a vengeful Australian..."
+            android:textSize="13sp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/madmaxButton"
+            android:layout_width="85dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="73dp"
+            android:background="@drawable/buttonstyle"
+            android:fontFamily="@font/roboto_medium"
+            android:text="Learn More"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="13sp" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="290dp"
+        android:layout_height="110dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="50dp"
+        android:layout_marginBottom="8dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="5dp">
+
+        <ImageView
+            android:layout_width="90dp"
+            android:layout_height="101dp"
+            android:layout_margin="5dp"
+            android:background="@color/white"
+            android:elevation="3dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/apes" />
+
+        <TextView
+            android:layout_width="266dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:fontFamily="@font/roboto_bold"
+            android:paddingLeft="98dp"
+            android:text="Planet of the Apes"
+            android:textColor="#500D0D"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="32dp"
+            android:text="In 2029, an Air Force astronaut crash-lands on..."
+            android:textSize="13sp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/apesButton"
+            android:layout_width="85dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="73dp"
+            android:background="@drawable/buttonstyle"
+            android:fontFamily="@font/roboto_medium"
+            android:text="Learn More"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="13sp" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="290dp"
+        android:layout_height="110dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="50dp"
+        android:layout_marginBottom="8dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="5dp">
+
+        <ImageView
+            android:layout_width="90dp"
+            android:layout_height="101dp"
+            android:layout_margin="5dp"
+            android:background="@color/white"
+            android:elevation="3dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/damsel" />
+
+        <TextView
+            android:layout_width="266dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:fontFamily="@font/roboto_bold"
+            android:paddingLeft="98dp"
+            android:text="Damsel"
+            android:textColor="#500D0D"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="165dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="32dp"
+            android:text="A dutiful damsel agrees to marry a handsome prince..."
+            android:textSize="13sp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/damselButton"
+            android:layout_width="85dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="73dp"
+            android:background="@drawable/buttonstyle"
+            android:fontFamily="@font/roboto_medium"
+            android:text="Learn More"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="12sp" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="290dp"
+        android:layout_height="110dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="50dp"
+        android:layout_marginBottom="30dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="5dp">
+
+        <ImageView
+            android:layout_width="90dp"
+            android:layout_height="101dp"
+            android:layout_margin="5dp"
+            android:background="@color/white"
+            android:elevation="3dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/hours" />
+
+        <TextView
+            android:layout_width="266dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:fontFamily="@font/roboto_bold"
+            android:paddingLeft="98dp"
+            android:text="127 Hours"
+            android:textColor="#500D0D"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="168dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="32dp"
+            android:text="A mountain climber becomes trapped under a..."
+            android:textSize="13sp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/hoursButton"
+            android:layout_width="85dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="73dp"
+            android:background="@drawable/buttonstyle"
+            android:fontFamily="@font/roboto_medium"
+            android:text="Learn More"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="13sp" />
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

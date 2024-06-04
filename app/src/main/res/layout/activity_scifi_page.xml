@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cinemaniacbg"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".ScifiPage">
+
+    <ImageButton
+        android:id="@+id/backButton"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginRight="128dp"
+        android:layout_marginBottom="8dp"
+        android:background="@android:color/transparent"
+        android:rotationY="-180"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/backbutton" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:fontFamily="@font/roboto_bold"
+        android:text="Sci-fi Genre"
+        android:textAlignment="textStart"
+        android:textColor="#500D0D"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="287dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="14dp"
+        android:fontFamily="@font/roboto"
+        android:text="Sci-fi intrigues audiences with futuristic technology, alien worlds, and speculative concepts, aiming to evoke curiosity."
+        android:textAlignment="textStart"
+        android:textColor="#000000"
+        android:textSize="19sp" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="290dp"
+        android:layout_height="110dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="50dp"
+        android:layout_marginBottom="8dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="5dp">
+
+        <ImageView
+            android:layout_width="90dp"
+            android:layout_height="101dp"
+            android:layout_margin="5dp"
+            android:background="@color/white"
+            android:elevation="3dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/interstellar" />
+
+        <TextView
+            android:layout_width="266dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:fontFamily="@font/roboto_bold"
+            android:paddingLeft="98dp"
+            android:text="Interstellar"
+            android:textColor="#500D0D"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="168dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="32dp"
+            android:text="When Earth becomes uninhabitable in the future..."
+            android:textSize="13sp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/interstellarButton"
+            android:layout_width="85dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="73dp"
+            android:background="@drawable/buttonstyle"
+            android:fontFamily="@font/roboto_medium"
+            android:text="Learn More"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="13sp" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="290dp"
+        android:layout_height="110dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="50dp"
+        android:layout_marginBottom="8dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="5dp">
+
+        <ImageView
+            android:layout_width="90dp"
+            android:layout_height="101dp"
+            android:layout_margin="5dp"
+            android:background="@color/white"
+            android:elevation="3dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/arrival" />
+
+        <TextView
+            android:layout_width="266dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:fontFamily="@font/roboto_bold"
+            android:paddingLeft="98dp"
+            android:text="Arrival"
+            android:textColor="#500D0D"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="32dp"
+            android:text="A linguist works with the military to communicate..."
+            android:textSize="13sp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/arrivalButton"
+            android:layout_width="85dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="73dp"
+            android:background="@drawable/buttonstyle"
+            android:fontFamily="@font/roboto_medium"
+            android:text="Learn More"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="13sp" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="290dp"
+        android:layout_height="110dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="50dp"
+        android:layout_marginBottom="8dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="5dp">
+
+        <ImageView
+            android:layout_width="90dp"
+            android:layout_height="101dp"
+            android:layout_margin="5dp"
+            android:background="@color/white"
+            android:elevation="3dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/machina" />
+
+        <TextView
+            android:layout_width="266dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:fontFamily="@font/roboto_bold"
+            android:paddingLeft="98dp"
+            android:text="Ex Machina"
+            android:textColor="#500D0D"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="165dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="32dp"
+            android:text="A young programmer is selected to participate in..."
+            android:textSize="13sp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/machinaButton"
+            android:layout_width="85dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="73dp"
+            android:background="@drawable/buttonstyle"
+            android:fontFamily="@font/roboto_medium"
+            android:text="Learn More"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="12sp" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="290dp"
+        android:layout_height="110dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="50dp"
+        android:layout_marginBottom="30dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="5dp">
+
+        <ImageView
+            android:layout_width="90dp"
+            android:layout_height="101dp"
+            android:layout_margin="5dp"
+            android:background="@color/white"
+            android:elevation="3dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/inception" />
+
+        <TextView
+            android:layout_width="266dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:fontFamily="@font/roboto_bold"
+            android:paddingLeft="98dp"
+            android:text="Inception"
+            android:textColor="#500D0D"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="168dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="32dp"
+            android:text="A thief who steals corporate secrets through the use..."
+            android:textSize="13sp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/inceptionButton"
+            android:layout_width="85dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="73dp"
+            android:background="@drawable/buttonstyle"
+            android:fontFamily="@font/roboto_medium"
+            android:text="Learn More"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="13sp" />
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

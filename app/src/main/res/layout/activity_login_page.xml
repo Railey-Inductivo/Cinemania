@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/cinemaniahbg"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".LoginPage">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/cinemaniaicon"
+        tools:layout_editor_absoluteX="115dp"
+        tools:layout_editor_absoluteY="150dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="288dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_medium"
+        android:text="Before you proceed to your extravagant movie journey"
+        android:textAlignment="center"
+        android:textColor="#500D0D"
+        android:textSize="21sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="285dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto"
+        android:paddingTop="10sp"
+        android:text="Please enter your username below to discover curated recommendations and dive into the world of movies!"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="19sp" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="231dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25sp"
+        android:background="@drawable/name_input_style"
+        android:drawableLeft="@drawable/baseline_person_24"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:fontFamily="@font/roboto"
+        android:hint="Enter your name..."
+        android:inputType="text"
+        android:padding="10sp"
+        android:textSize="17sp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/confirmButton"
+        android:layout_width="231dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:background="@drawable/buttonstyle"
+        android:text="I'll Go With This Name!"
+        android:textAllCaps="false"
+        android:textColor="#FEF8DD"
+        android:textSize="17sp" />
+</LinearLayout>

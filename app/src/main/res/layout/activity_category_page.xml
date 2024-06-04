@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF9DE"
+    android:fillViewport="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".CategoryPage">
+
+        <TextView
+            android:id="@+id/greetingText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="28dp"
+            android:fontFamily="@font/roboto_bold"
+            android:text="Welcome, Railey!"
+            android:textColor="#500D0D"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="269dp"
+            android:layout_height="46dp"
+            android:layout_marginStart="1dp"
+            android:fontFamily="@font/roboto"
+            android:text="Select or search a genre to find your next favorite movie!"
+            android:textColor="#000000"
+            android:textSize="19sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.203"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/greetingText" />
+
+        <ImageButton
+            android:id="@+id/instructionButton"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="28dp"
+            android:background="@android:color/transparent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.914"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/baseline_info_24" />
+
+        <ImageButton
+            android:id="@+id/actionButton"
+            android:layout_width="160dp"
+            android:layout_height="175dp"
+            android:layout_marginTop="28dp"
+            android:background="@drawable/roundedbutton2"
+            android:padding="5sp"
+            android:scaleType="fitXY"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.873"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView4"
+            app:srcCompat="@drawable/action" />
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/horrorButton"
+            android:layout_width="160dp"
+            android:layout_height="175dp"
+            android:layout_marginStart="26dp"
+            android:layout_marginTop="28dp"
+            android:background="@drawable/roundedbutton"
+            android:padding="5sp"
+            android:scaleType="fitXY"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView4"
+            app:srcCompat="@drawable/horror" />
+
+        <ImageButton
+            android:id="@+id/scifiButton"
+            android:layout_width="160dp"
+            android:layout_height="175dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="17dp"
+            android:layout_marginEnd="30dp"
+            android:background="@drawable/roundedbutton6"
+            android:padding="5sp"
+            android:scaleType="fitXY"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/romanceButton"
+            app:layout_constraintTop_toBottomOf="@+id/comedyButton"
+            app:srcCompat="@drawable/scifi" />
+
+        <ImageButton
+            android:id="@+id/adventureButton"
+            android:layout_width="160dp"
+            android:layout_height="175dp"
+            android:layout_marginStart="26dp"
+            android:layout_marginTop="17dp"
+            android:background="@drawable/roundedbutton3"
+            android:padding="5sp"
+            android:scaleType="fitXY"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/horrorButton"
+            app:srcCompat="@drawable/adventure" />
+
+        <ImageButton
+            android:id="@+id/mysteryButton"
+            android:layout_width="160dp"
+            android:layout_height="175dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="17dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginBottom="35dp"
+            android:background="@drawable/roundedbutton8"
+            android:padding="5sp"
+            android:scaleType="fitXY"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/fantasyButton"
+            app:layout_constraintTop_toBottomOf="@+id/scifiButton"
+            app:layout_constraintVertical_bias="1.0"
+            app:srcCompat="@drawable/mystery" />
+
+        <ImageButton
+            android:id="@+id/comedyButton"
+            android:layout_width="160dp"
+            android:layout_height="175dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="17dp"
+            android:layout_marginEnd="30dp"
+            android:background="@drawable/roundedbutton4"
+            android:padding="5sp"
+            android:scaleType="fitXY"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.923"
+            app:layout_constraintStart_toEndOf="@+id/adventureButton"
+            app:layout_constraintTop_toBottomOf="@+id/actionButton"
+            app:srcCompat="@drawable/comedy" />
+
+        <ImageButton
+            android:id="@+id/fantasyButton"
+            android:layout_width="160dp"
+            android:layout_height="175dp"
+            android:layout_marginStart="26dp"
+            android:layout_marginTop="17dp"
+            android:layout_marginBottom="35dp"
+            android:background="@drawable/roundedbutton7"
+            android:padding="5sp"
+            android:scaleType="fitXY"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/romanceButton"
+            app:layout_constraintVertical_bias="1.0"
+            app:srcCompat="@drawable/fantasy" />
+
+        <ImageButton
+            android:id="@+id/romanceButton"
+            android:layout_width="160dp"
+            android:layout_height="175dp"
+            android:layout_marginStart="26dp"
+            android:layout_marginTop="17dp"
+            android:background="@drawable/roundedbutton5"
+            android:padding="5sp"
+            android:scaleType="fitXY"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/adventureButton"
+            app:srcCompat="@drawable/romance" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
